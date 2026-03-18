@@ -1,0 +1,22 @@
+{
+  "model": "llava-hf/llava-1.5-7b-hf",
+  "dataset": "ClearVQA",
+  "samples": 500,
+  "alpha": 0.1,
+  "cal_ratio": 0.5,
+  "clear": {
+    "accuracy": 52.0,
+    "avg_set_size": 3.23,
+    "coverage_rate": 92.0
+  },
+  "ambiguous": {
+    "accuracy": 43.2,
+    "avg_set_size": 3.8,
+    "coverage_rate": 88.4
+  },
+  "finding": {
+    "ss_increase": 0.576,
+    "acc_drop": 8.8,
+    "conclusion": "Ambiguous questions produce higher conformal uncertainty"
+  }
+}
