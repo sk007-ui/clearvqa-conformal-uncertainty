@@ -1,0 +1,73 @@
+{
+  "paper": "Benchmarking LLMs via Uncertainty Quantification (arxiv 2401.12794)",
+  "goal": "Reproduce paper results to validate codebase before applying to ClearVQA",
+  "models_tested": [
+    "Llama-2-7b-hf",
+    "Mistral-7B-v0.1"
+  ],
+  "Llama-2-7b-hf": {
+    "mmlu_10k": {
+      "Acc": 45.6,
+      "SS": 3.2,
+      "UAcc": 34.98
+    },
+    "cosmosqa_10k": {
+      "Acc": 65.79,
+      "SS": 2.39,
+      "UAcc": 67.93
+    },
+    "hellaswag_10k": {
+      "Acc": 43.05,
+      "SS": 3.27,
+      "UAcc": 32.28
+    },
+    "halu_dialogue": {
+      "Acc": 32.61,
+      "SS": 3.26,
+      "UAcc": 24.53
+    },
+    "halu_summarization": {
+      "Acc": 45.6,
+      "SS": 3.3,
+      "UAcc": 33.95
+    },
+    "average": {
+      "Acc": 46.53,
+      "SS": 3.08,
+      "UAcc": 38.73
+    }
+  },
+  "Mistral-7B-v0.1": {
+    "mmlu_10k": {
+      "Acc": 60.44,
+      "SS": 2.8,
+      "UAcc": 54.6
+    },
+    "cosmosqa_10k": {
+      "Acc": 81.94,
+      "SS": 1.75,
+      "UAcc": 124.71
+    },
+    "hellaswag_10k": {
+      "Acc": 62.93,
+      "SS": 2.48,
+      "UAcc": 62.45
+    },
+    "halu_dialogue": {
+      "Acc": 53.21,
+      "SS": 2.71,
+      "UAcc": 48.18
+    },
+    "halu_summarization": {
+      "Acc": 62.16,
+      "SS": 2.4,
+      "UAcc": 64.25
+    },
+    "average": {
+      "Acc": 64.14,
+      "SS": 2.43,
+      "UAcc": 70.84
+    }
+  },
+  "conclusion": "All results match paper exactly. Codebase verified."
+}
