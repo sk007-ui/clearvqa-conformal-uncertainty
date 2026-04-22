@@ -26,5 +26,3 @@ We evaluate two different architectures across three distinct types of visual am
 - `plot_*.py`: Publication-quality visualization scripts.
 - `cp_results.json`: Detailed metrics for all experiments.
 
----
-*Internship Supervisor: Sambit (PhD Candidate, IISc)*
