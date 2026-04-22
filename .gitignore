@@ -1,0 +1,5 @@
+﻿*.pkl
+*.zip
+images/
+colab_*/
+__pycache__/

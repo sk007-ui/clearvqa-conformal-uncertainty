@@ -1,0 +1,26 @@
+{
+    "clear": {
+        "LAC": {
+            "avg_set_size": 1.51,
+            "coverage": 0.914,
+            "threshold": 0.8836176991462708
+        },
+        "APS": {
+            "avg_set_size": 3.46,
+            "coverage": 0.996,
+            "threshold": 0.99689120054245
+        }
+    },
+    "ambig": {
+        "LAC": {
+            "avg_set_size": 2.306,
+            "coverage": 0.92,
+            "threshold": 0.9483996629714966
+        },
+        "APS": {
+            "avg_set_size": 3.75,
+            "coverage": 0.996,
+            "threshold": 0.9975811243057251
+        }
+    }
+}

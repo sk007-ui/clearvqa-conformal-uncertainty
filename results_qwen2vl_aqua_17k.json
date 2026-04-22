@@ -1,0 +1,169 @@
+{
+  "model": "Qwen/Qwen2-VL-2B-Instruct",
+  "dataset": "AQuA",
+  "n_samples": 2876,
+  "alpha": 0.1,
+  "cal_ratio": 0.5,
+  "all_levels": {
+    "LAC": {
+      "accuracy": 26.36,
+      "avg_set_size": 6.0,
+      "coverage_rate": 100.0,
+      "threshold": 0.8333,
+      "set_size_distribution": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1438
+      ]
+    },
+    "APS": {
+      "accuracy": 26.36,
+      "avg_set_size": 4.0,
+      "coverage_rate": 100.0,
+      "threshold": 0.6667,
+      "set_size_distribution": [
+        0,
+        0,
+        0,
+        0,
+        1438,
+        0,
+        0
+      ]
+    }
+  },
+  "per_level": {
+    "0": {
+      "LAC": {
+        "accuracy": 23.61,
+        "avg_set_size": 6.0,
+        "coverage_rate": 100.0,
+        "threshold": 0.8333,
+        "set_size_distribution": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          360
+        ]
+      },
+      "APS": {
+        "accuracy": 23.61,
+        "avg_set_size": 4.0,
+        "coverage_rate": 100.0,
+        "threshold": 0.6667,
+        "set_size_distribution": [
+          0,
+          0,
+          0,
+          0,
+          360,
+          0,
+          0
+        ]
+      }
+    },
+    "1": {
+      "LAC": {
+        "accuracy": 28.06,
+        "avg_set_size": 6.0,
+        "coverage_rate": 100.0,
+        "threshold": 0.8333,
+        "set_size_distribution": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          360
+        ]
+      },
+      "APS": {
+        "accuracy": 28.06,
+        "avg_set_size": 4.0,
+        "coverage_rate": 100.0,
+        "threshold": 0.6667,
+        "set_size_distribution": [
+          0,
+          0,
+          0,
+          0,
+          360,
+          0,
+          0
+        ]
+      }
+    },
+    "2": {
+      "LAC": {
+        "accuracy": 23.89,
+        "avg_set_size": 6.0,
+        "coverage_rate": 100.0,
+        "threshold": 0.8333,
+        "set_size_distribution": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          360
+        ]
+      },
+      "APS": {
+        "accuracy": 23.89,
+        "avg_set_size": 4.0,
+        "coverage_rate": 100.0,
+        "threshold": 0.6667,
+        "set_size_distribution": [
+          0,
+          0,
+          0,
+          0,
+          360,
+          0,
+          0
+        ]
+      }
+    },
+    "3": {
+      "LAC": {
+        "accuracy": 29.89,
+        "avg_set_size": 6.0,
+        "coverage_rate": 100.0,
+        "threshold": 0.8333,
+        "set_size_distribution": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          358
+        ]
+      },
+      "APS": {
+        "accuracy": 29.89,
+        "avg_set_size": 4.0,
+        "coverage_rate": 100.0,
+        "threshold": 0.6667,
+        "set_size_distribution": [
+          0,
+          0,
+          0,
+          0,
+          358,
+          0,
+          0
+        ]
+      }
+    }
+  }
+}
